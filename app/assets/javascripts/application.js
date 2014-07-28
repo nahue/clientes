@@ -13,4 +13,9 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require concisecss/navigation
+//= require concisecss/non-responsive
+//= require concisecss/naver
+//= require concisecss/dropdown
+//= require concisecss/close
 //= require_tree .

@@ -15,6 +15,9 @@ gem 'pg'
 gem 'puma'
 gem 'pundit'
 gem 'simple_form'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'concisecss', '~> 0.0.4'
+gem 'modernizr-rails'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
