@@ -1,0 +1,59 @@
+$use-push: true;
+
+@import "concise";
+
+// Flash messages
+.flash_notice { @extend .color-green; }
+
+.flash_alert, .flash_error{ @extend .color-red; }
+.flash_warning { @extend .color-yellow; }
+
+a { text-decoration: none !important; }
+
+nav.nav-responsive { padding: 20px 0; }
+
+.logo h1 { padding: 8px 0; }
+
+.login-container {
+    background: #bd7e6f image-url('login-bg.jpg') no-repeat top left fixed;
+    border-bottom: 1px solid #ddd;
+    #padding: 40px 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left:0; right: 0;
+    height: 350px;
+    h2 {color: #FFFFFF;}
+    form {
+        .form-item {
+            padding: 8px 0;
+        }
+    }
+    input {
+        background-color: rgba(0,0,0,0.1);
+        color: #FFFFFF;
+        border: none;
+    }
+    input[type="email"],
+    input[type="password"] {
+        height: 42px;
+        padding: 0 15px;
+    }
+    [class*='flash_'] {
+        position: absolute;
+    }
+    .column-6 {
+        padding-top: 30px;
+    }
+}
+
+.fondo-oscuro {
+    color: #FFFFFF;
+    a { color: #FFFFFF;}
+}
+
+
+label.boolean { display: inline-block; padding-right: 20px;}
