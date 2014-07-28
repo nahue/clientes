@@ -1,0 +1,15 @@
+<%= simple_form_for(@servicio) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :cliente %>
+    <%= f.input :alta %>
+    <%= f.input :baja %>
+    <%= f.input :user %>
+    <%= f.input :password %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente_id: 
+  alta: 2014-07-28
+  baja: 2014-07-28
+  user: MyString
+  password: MyString
+
+two:
+  cliente_id: 
+  alta: 2014-07-28
+  baja: 2014-07-28
+  user: MyString
+  password: MyString
